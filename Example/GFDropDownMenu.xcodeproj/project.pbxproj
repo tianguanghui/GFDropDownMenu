@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E99E6B1ED513A200928691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E6A1ED513A200928691 /* main.m */; };
+		06E99E6E1ED513A200928691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E6D1ED513A200928691 /* AppDelegate.m */; };
+		06E99E711ED513A200928691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E701ED513A200928691 /* ViewController.m */; };
+		06E99E741ED513A200928691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E99E721ED513A200928691 /* Main.storyboard */; };
+		06E99E761ED513A200928691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E99E751ED513A200928691 /* Assets.xcassets */; };
+		06E99E791ED513A200928691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E99E771ED513A200928691 /* LaunchScreen.storyboard */; };
+		06E99E841ED513A200928691 /* GFDropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E831ED513A200928691 /* GFDropDownMenuTests.m */; };
+		06E99E8F1ED513A200928691 /* GFDropDownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E8E1ED513A200928691 /* GFDropDownMenuUITests.m */; };
+		06E99EA31ED5142700928691 /* GFDDIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99E9E1ED5142700928691 /* GFDDIndexPath.m */; };
+		06E99EA41ED5142700928691 /* GFDropDownCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99EA01ED5142700928691 /* GFDropDownCollectionViewCell.m */; };
+		06E99EA51ED5142700928691 /* GFDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E99EA21ED5142700928691 /* GFDropDownMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E99E801ED513A200928691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E99E5E1ED513A200928691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E99E651ED513A200928691;
+			remoteInfo = GFDropDownMenu;
+		};
+		06E99E8B1ED513A200928691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E99E5E1ED513A200928691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E99E651ED513A200928691;
+			remoteInfo = GFDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E99E661ED513A200928691 /* GFDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E99E6A1ED513A200928691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06E99E6C1ED513A200928691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06E99E6D1ED513A200928691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06E99E6F1ED513A200928691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06E99E701ED513A200928691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06E99E731ED513A200928691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06E99E751ED513A200928691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06E99E781ED513A200928691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06E99E7A1ED513A200928691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E99E7F1ED513A200928691 /* GFDropDownMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDropDownMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E99E831ED513A200928691 /* GFDropDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFDropDownMenuTests.m; sourceTree = "<group>"; };
+		06E99E851ED513A200928691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E99E8A1ED513A200928691 /* GFDropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E99E8E1ED513A200928691 /* GFDropDownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFDropDownMenuUITests.m; sourceTree = "<group>"; };
+		06E99E901ED513A200928691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E99E9D1ED5142700928691 /* GFDDIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDDIndexPath.h; sourceTree = "<group>"; };
+		06E99E9E1ED5142700928691 /* GFDDIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDDIndexPath.m; sourceTree = "<group>"; };
+		06E99E9F1ED5142700928691 /* GFDropDownCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDropDownCollectionViewCell.h; sourceTree = "<group>"; };
+		06E99EA01ED5142700928691 /* GFDropDownCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDropDownCollectionViewCell.m; sourceTree = "<group>"; };
+		06E99EA11ED5142700928691 /* GFDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDropDownMenu.h; sourceTree = "<group>"; };
+		06E99EA21ED5142700928691 /* GFDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDropDownMenu.m; sourceTree = "<group>"; };
+		06E99EA61ED5159A00928691 /* GFDropDownMenuCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDropDownMenuCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E99E631ED513A200928691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E7C1ED513A200928691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E871ED513A200928691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E99E5D1ED513A200928691 = {
+			isa = PBXGroup;
+			children = (
+				06E99E681ED513A200928691 /* GFDropDownMenu */,
+				06E99E821ED513A200928691 /* GFDropDownMenuTests */,
+				06E99E8D1ED513A200928691 /* GFDropDownMenuUITests */,
+				06E99E671ED513A200928691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06E99E671ED513A200928691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E661ED513A200928691 /* GFDropDownMenu.app */,
+				06E99E7F1ED513A200928691 /* GFDropDownMenuTests.xctest */,
+				06E99E8A1ED513A200928691 /* GFDropDownMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E99E681ED513A200928691 /* GFDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E6C1ED513A200928691 /* AppDelegate.h */,
+				06E99E6D1ED513A200928691 /* AppDelegate.m */,
+				06E99E751ED513A200928691 /* Assets.xcassets */,
+				06E99E9C1ED5142700928691 /* GFDropDownMenu */,
+				06E99E7A1ED513A200928691 /* Info.plist */,
+				06E99E771ED513A200928691 /* LaunchScreen.storyboard */,
+				06E99E721ED513A200928691 /* Main.storyboard */,
+				06E99E691ED513A200928691 /* Supporting Files */,
+				06E99E6F1ED513A200928691 /* ViewController.h */,
+				06E99E701ED513A200928691 /* ViewController.m */,
+			);
+			path = GFDropDownMenu;
+			sourceTree = "<group>";
+		};
+		06E99E691ED513A200928691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E6A1ED513A200928691 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06E99E821ED513A200928691 /* GFDropDownMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E831ED513A200928691 /* GFDropDownMenuTests.m */,
+				06E99E851ED513A200928691 /* Info.plist */,
+			);
+			path = GFDropDownMenuTests;
+			sourceTree = "<group>";
+		};
+		06E99E8D1ED513A200928691 /* GFDropDownMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E8E1ED513A200928691 /* GFDropDownMenuUITests.m */,
+				06E99E901ED513A200928691 /* Info.plist */,
+			);
+			path = GFDropDownMenuUITests;
+			sourceTree = "<group>";
+		};
+		06E99E9C1ED5142700928691 /* GFDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				06E99E9D1ED5142700928691 /* GFDDIndexPath.h */,
+				06E99E9E1ED5142700928691 /* GFDDIndexPath.m */,
+				06E99E9F1ED5142700928691 /* GFDropDownCollectionViewCell.h */,
+				06E99EA01ED5142700928691 /* GFDropDownCollectionViewCell.m */,
+				06E99EA11ED5142700928691 /* GFDropDownMenu.h */,
+				06E99EA21ED5142700928691 /* GFDropDownMenu.m */,
+				06E99EA61ED5159A00928691 /* GFDropDownMenuCommon.h */,
+			);
+			path = GFDropDownMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E99E651ED513A200928691 /* GFDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E99E931ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenu" */;
+			buildPhases = (
+				06E99E621ED513A200928691 /* Sources */,
+				06E99E631ED513A200928691 /* Frameworks */,
+				06E99E641ED513A200928691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFDropDownMenu;
+			productName = GFDropDownMenu;
+			productReference = 06E99E661ED513A200928691 /* GFDropDownMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06E99E7E1ED513A200928691 /* GFDropDownMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E99E961ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenuTests" */;
+			buildPhases = (
+				06E99E7B1ED513A200928691 /* Sources */,
+				06E99E7C1ED513A200928691 /* Frameworks */,
+				06E99E7D1ED513A200928691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E99E811ED513A200928691 /* PBXTargetDependency */,
+			);
+			name = GFDropDownMenuTests;
+			productName = GFDropDownMenuTests;
+			productReference = 06E99E7F1ED513A200928691 /* GFDropDownMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06E99E891ED513A200928691 /* GFDropDownMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E99E991ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenuUITests" */;
+			buildPhases = (
+				06E99E861ED513A200928691 /* Sources */,
+				06E99E871ED513A200928691 /* Frameworks */,
+				06E99E881ED513A200928691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E99E8C1ED513A200928691 /* PBXTargetDependency */,
+			);
+			name = GFDropDownMenuUITests;
+			productName = GFDropDownMenuUITests;
+			productReference = 06E99E8A1ED513A200928691 /* GFDropDownMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E99E5E1ED513A200928691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TianGuanghui;
+				TargetAttributes = {
+					06E99E651ED513A200928691 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					06E99E7E1ED513A200928691 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06E99E651ED513A200928691;
+					};
+					06E99E891ED513A200928691 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06E99E651ED513A200928691;
+					};
+				};
+			};
+			buildConfigurationList = 06E99E611ED513A200928691 /* Build configuration list for PBXProject "GFDropDownMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E99E5D1ED513A200928691;
+			productRefGroup = 06E99E671ED513A200928691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E99E651ED513A200928691 /* GFDropDownMenu */,
+				06E99E7E1ED513A200928691 /* GFDropDownMenuTests */,
+				06E99E891ED513A200928691 /* GFDropDownMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E99E641ED513A200928691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E99E791ED513A200928691 /* LaunchScreen.storyboard in Resources */,
+				06E99E761ED513A200928691 /* Assets.xcassets in Resources */,
+				06E99E741ED513A200928691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E7D1ED513A200928691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E881ED513A200928691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E99E621ED513A200928691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E99EA31ED5142700928691 /* GFDDIndexPath.m in Sources */,
+				06E99E711ED513A200928691 /* ViewController.m in Sources */,
+				06E99EA41ED5142700928691 /* GFDropDownCollectionViewCell.m in Sources */,
+				06E99E6E1ED513A200928691 /* AppDelegate.m in Sources */,
+				06E99EA51ED5142700928691 /* GFDropDownMenu.m in Sources */,
+				06E99E6B1ED513A200928691 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E7B1ED513A200928691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E99E841ED513A200928691 /* GFDropDownMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E99E861ED513A200928691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E99E8F1ED513A200928691 /* GFDropDownMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06E99E811ED513A200928691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E99E651ED513A200928691 /* GFDropDownMenu */;
+			targetProxy = 06E99E801ED513A200928691 /* PBXContainerItemProxy */;
+		};
+		06E99E8C1ED513A200928691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E99E651ED513A200928691 /* GFDropDownMenu */;
+			targetProxy = 06E99E8B1ED513A200928691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06E99E721ED513A200928691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E99E731ED513A200928691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06E99E771ED513A200928691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E99E781ED513A200928691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E99E911ED513A200928691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06E99E921ED513A200928691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06E99E941ED513A200928691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06E99E951ED513A200928691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GFDropDownMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06E99E971ED513A200928691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GFDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu.GFDropDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDropDownMenu.app/GFDropDownMenu";
+			};
+			name = Debug;
+		};
+		06E99E981ED513A200928691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GFDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu.GFDropDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDropDownMenu.app/GFDropDownMenu";
+			};
+			name = Release;
+		};
+		06E99E9A1ED513A200928691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GFDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu.GFDropDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFDropDownMenu;
+			};
+			name = Debug;
+		};
+		06E99E9B1ED513A200928691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GFDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greywolftec.dropdownmenu.GFDropDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GFDropDownMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E99E611ED513A200928691 /* Build configuration list for PBXProject "GFDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E99E911ED513A200928691 /* Debug */,
+				06E99E921ED513A200928691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E99E931ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E99E941ED513A200928691 /* Debug */,
+				06E99E951ED513A200928691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E99E961ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E99E971ED513A200928691 /* Debug */,
+				06E99E981ED513A200928691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E99E991ED513A200928691 /* Build configuration list for PBXNativeTarget "GFDropDownMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E99E9A1ED513A200928691 /* Debug */,
+				06E99E9B1ED513A200928691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E99E5E1ED513A200928691 /* Project object */;
+}
